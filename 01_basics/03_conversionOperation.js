@@ -37,3 +37,53 @@ console.log(booleanIsLoggedIn)
 // conversion into Boolean datatype and when used "typeOf" operator
 // 1 => true; 0 => false
 // "chetan" => true; "" => false;
+
+// **************************** Operations ********************************
+
+let value = 4
+let negValue = -value
+console.log(negValue)
+
+console.log(2+2)
+console.log(2-2)
+console.log(2*2)
+console.log(2**2)
+console.log(2/2)
+console.log(2%2)
+
+let str1 = "Hello"
+let str2 = " Chetan"
+
+let str3 = str1 + str2
+console.log(str3)
+
+console.log("1" + 2 +2) //output : 122
+console.log(1+2+"3") // output : 33
+
+let num1, num2, num3
+
+num1 = num2 = num3 = 2+2
+console.log(num1, num2, num3)
+
+// postfix increment :
+
+let x = 3;
+const y = x++;
+// x is 4; y is 3
+
+let x2 = 3n;
+const y2 = x2++;
+// x2 is 4n; y2 is 3n
+
+// Prefix increment 
+
+let a = 3;
+const b = ++x;
+// x is 4; y is 4
+
+let a2 = 3n;
+const b2 = ++x2;
+// x2 is 4n; y2 is 4n
+
+// link to study conversion type
+// https://tc39.es/ecma262/multipage/abstract-operations.html
