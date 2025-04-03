@@ -18,3 +18,9 @@ const myObj = {
 const myFunction = function () {
     console.log("Hello world");
 }
+
+// -------------------------------------------------
+
+// Memory allocation types :
+// 1. Stack (primitive) : Value gets changed in the copy of a memory.
+// 2. Heap (Non-primitive) : Value gets changed in the original reference  
